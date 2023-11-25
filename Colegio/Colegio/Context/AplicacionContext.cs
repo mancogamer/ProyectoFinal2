@@ -13,6 +13,7 @@ namespace Colegio.Context
         }
         
         public DbSet<AnuncioInformacionEscolar> AnuncioInformacionEscolar { get; set; }
+        public DbSet<calificaciones> Calificacion { get; set; }
         
 
     }
