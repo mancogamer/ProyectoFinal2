@@ -18,6 +18,7 @@ namespace Colegio.Context
         public DbSet<perfiles_alumnos> Perfiles_Alumnos { get; set; }
         public DbSet<Asignatura> Asignaturas { get; set; }
         public DbSet<perfiles_profesores> Perfiles_Profesores { get; set; }
+        public DbSet<Usuario> Usuarios { get; set; }
 
     }
 }
