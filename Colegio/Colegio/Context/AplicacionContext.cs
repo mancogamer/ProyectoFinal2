@@ -15,6 +15,7 @@ namespace Colegio.Context
         public DbSet<AnuncioInformacionEscolar> AnuncioInformacionEscolar { get; set; }
         public DbSet<calificaciones> Calificacion { get; set; }
         public DbSet<recursos_educativo> recursos_educativos { get; set; }
+        public DbSet<perfiles_alumnos> Perfiles_Alumnos { get; set; }
 
     }
 }
